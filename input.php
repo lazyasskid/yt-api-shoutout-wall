@@ -1,6 +1,6 @@
 <?php
 
-$no_of_channels = 5;
+$no_of_channels = 10;
 $myFile = "channels.json";
 $arr_data = array(); // create empty array
 
