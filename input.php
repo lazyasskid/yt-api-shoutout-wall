@@ -26,11 +26,11 @@ try {
     array_push($arr_data,$id);
     $jsondata = json_encode($arr_data, JSON_PRETTY_PRINT);
     if (file_put_contents($myFile, $jsondata)) {
-      echo "Your channel has been added to the list."; // chatbot success response
+      echo "Your channel has been added to the list."; // success response
     }
   }
   else {
-    echo "Your channel is already in the list."; // chatbot fail response
+    echo "Your channel is already in the list."; // fail response
   }
 }
 catch (Exception $e) {
